@@ -15,7 +15,7 @@ Voor de JS heb ik dit ook zo toegepast, omdat de verschillende functies gingen b
 
 Voor de CSS ben ik "mobile-first" begonnen en door het gebruik van mediaQuerrys ben ik gaan schalen naar desktop.
 
-<h2 Voorbeeld Css code </h2>
+<h2>Voorbeeld Css code</h2>
 
 	header{
 		display:flex;
