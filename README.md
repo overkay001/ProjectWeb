@@ -17,40 +17,40 @@ Voor de CSS ben ik "mobile-first" begonnen en door het gebruik van mediaQuerrys 
 
 <h2 Voorbeeld Css code </h2>
 
-header{
-	display:flex;
-	flex-direction:row;
-	align-items: center;
-	justify-content: space-between;
-	padding-top: 0.3125em;
-   	padding-bottom: 0.3125em;
-   	box-shadow: 0  0.125em  0.25em 0 rgba(0,0,0,0.16),0  0.125em 0.625em 0 rgba(0,0,0,0.12);
-   	background-color: #fff;
-}
+	header{
+		display:flex;
+		flex-direction:row;
+		align-items: center;
+		justify-content: space-between;
+		padding-top: 0.3125em;
+		padding-bottom: 0.3125em;
+		box-shadow: 0  0.125em  0.25em 0 rgba(0,0,0,0.16),0  0.125em 0.625em 0 rgba(0,0,0,0.12);
+		background-color: #fff;
+	}
 
-header > img {
-	width: 26vw;
-	height: auto;
-	padding-left:  0.8125em;
-}
+	header > img {
+		width: 26vw;
+		height: auto;
+		padding-left:  0.8125em;
+	}
 
 
 
-@media only screen 
-and (min-device-width : 45em) 
-{ 
+	@media only screen 
+	and (min-device-width : 45em) 
+	{ 
 
-#beginscherm {
-     position: absolute;
-    bottom: 3.75em;
-    font-size: 0.75em;
-    left: 2.5em;
-    background-color: white;
-    max-width: 40%;
-    height: 13.125em;
-    padding: 1em 1em 1em 1em;
-}
-}
+	#beginscherm {
+	     position: absolute;
+	    bottom: 3.75em;
+	    font-size: 0.75em;
+	    left: 2.5em;
+	    background-color: white;
+	    max-width: 40%;
+	    height: 13.125em;
+	    padding: 1em 1em 1em 1em;
+	}
+	}
 
 Dit is een voorbeeld een mediaquery die ervoor zorgt dat de responsive feel van website op tablet beter aanvoelt.
 
